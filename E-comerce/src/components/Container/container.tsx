@@ -5,5 +5,5 @@ type props = {
 }
 
 export function container ({children}: props) {
-    return <div className="px-5 py-4 max-w-7xl mx-auto w-full">{children}</div>
+    return <div className="px-2 md:px-5 py-4 max-w-7xl mx-auto w-full">{children}</div>
 }
