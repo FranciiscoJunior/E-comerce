@@ -5,5 +5,5 @@ import { title } from './title';
 
 export function title ({title}: props){
     return
-    <div></div>
+    <div className="text-5xl border-b-4 border-b-evergreen-light w-fit font-bold text-evergreen"></div>
 }

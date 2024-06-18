@@ -1,14 +1,7 @@
-function App() {
-import { Container } from './components/Container';
-import { headerTitle } from './components/Header/headerTite';
+import {Home} from "./Home";
 
-  return (
-    <>
-    <container>
-      <headerTitle/>
-    </container>
-    </>
-  );
+function App() {
+  return <Home/>
 }
 
 export default App
